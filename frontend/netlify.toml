@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://pocsamsung.vercel.app/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/uploads/*"
+  to = "https://pocsamsung.vercel.app/uploads/:splat"
+  status = 200
