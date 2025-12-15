@@ -1,0 +1,2 @@
+1. first in categories dropdown is not working - set the first one to empty or None or something similar 
+2. image is saved directly wgile adding a new product even if we click cancel  
