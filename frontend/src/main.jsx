@@ -36,6 +36,16 @@ import OrderList from "./pages/Admin/OrderList.jsx";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
 
+
+//Import Mixpanel SDK
+import mixpanel from "mixpanel-browser";
+
+// Create an instance of the Mixpanel object, your token is already added to this snippet
+mixpanel.init('21cb58e55777f1c5b57762ea2e47042c', {
+  autocapture: true,
+  record_sessions_percent: 100,
+})
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
